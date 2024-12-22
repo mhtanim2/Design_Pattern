@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2257AC9C-BDCD-4A5E-9880-5974E909B28D}|DesignPattern\\DesignPattern.csproj|g:\\aspdotnet\\palyground\\designpattern\\designpattern\\designpattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2257AC9C-BDCD-4A5E-9880-5974E909B28D}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\designpattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2257AC9C-BDCD-4A5E-9880-5974E909B28D}|DesignPattern\\DesignPattern.csproj|g:\\aspdotnet\\palyground\\designpattern\\designpattern\\singleton\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2257AC9C-BDCD-4A5E-9880-5974E909B28D}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\singleton\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2257AC9C-BDCD-4A5E-9880-5974E909B28D}|DesignPattern\\DesignPattern.csproj|g:\\aspdotnet\\palyground\\designpattern\\designpattern\\strategy\\ikeyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2257AC9C-BDCD-4A5E-9880-5974E909B28D}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\strategy\\ikeyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2257AC9C-BDCD-4A5E-9880-5974E909B28D}|DesignPattern\\DesignPattern.csproj|g:\\aspdotnet\\palyground\\designpattern\\designpattern\\strategy\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2257AC9C-BDCD-4A5E-9880-5974E909B28D}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\strategy\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2257AC9C-BDCD-4A5E-9880-5974E909B28D}|DesignPattern\\DesignPattern.csproj|g:\\aspdotnet\\palyground\\designpattern\\designpattern\\strategy\\macbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2257AC9C-BDCD-4A5E-9880-5974E909B28D}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\strategy\\macbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2257AC9C-BDCD-4A5E-9880-5974E909B28D}|DesignPattern\\DesignPattern.csproj|g:\\aspdotnet\\palyground\\designpattern\\designpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2257AC9C-BDCD-4A5E-9880-5974E909B28D}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2257AC9C-BDCD-4A5E-9880-5974E909B28D}|DesignPattern\\DesignPattern.csproj|g:\\aspdotnet\\palyground\\designpattern\\designpattern\\dinversion\\wairlessmouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2257AC9C-BDCD-4A5E-9880-5974E909B28D}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\dinversion\\wairlessmouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2257AC9C-BDCD-4A5E-9880-5974E909B28D}|DesignPattern\\DesignPattern.csproj|g:\\aspdotnet\\palyground\\designpattern\\designpattern\\dinversion\\wairlesskeyboar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2257AC9C-BDCD-4A5E-9880-5974E909B28D}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\dinversion\\wairlesskeyboar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 274,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\Singleton\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "DesignPattern\\Singleton\\DatabaseConnection.cs",
+              "ToolTip": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\Singleton\\DatabaseConnection.cs",
+              "RelativeToolTip": "DesignPattern\\Singleton\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T04:53:19.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DesignPattern",
+              "DocumentMoniker": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
+              "RelativeDocumentMoniker": "DesignPattern\\DesignPattern.csproj",
+              "ToolTip": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
+              "RelativeToolTip": "DesignPattern\\DesignPattern.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-22T04:51:27.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MacBook.cs",
+              "DocumentMoniker": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\Strategy\\MacBook.cs",
+              "RelativeDocumentMoniker": "DesignPattern\\Strategy\\MacBook.cs",
+              "ToolTip": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\Strategy\\MacBook.cs",
+              "RelativeToolTip": "DesignPattern\\Strategy\\MacBook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T13:34:12.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\Program.cs",
+              "RelativeDocumentMoniker": "DesignPattern\\Program.cs",
+              "ToolTip": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\Program.cs",
+              "RelativeToolTip": "DesignPattern\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T13:33:49.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WairlessMouse.cs",
+              "DocumentMoniker": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\DInversion\\WairlessMouse.cs",
+              "RelativeDocumentMoniker": "DesignPattern\\DInversion\\WairlessMouse.cs",
+              "ToolTip": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\DInversion\\WairlessMouse.cs",
+              "RelativeToolTip": "DesignPattern\\DInversion\\WairlessMouse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T13:32:58.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WairlessKeyboar.cs",
+              "DocumentMoniker": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\DInversion\\WairlessKeyboar.cs",
+              "RelativeDocumentMoniker": "DesignPattern\\DInversion\\WairlessKeyboar.cs",
+              "ToolTip": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\DInversion\\WairlessKeyboar.cs",
+              "RelativeToolTip": "DesignPattern\\DInversion\\WairlessKeyboar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T13:32:57.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IKeyboard.cs",
+              "DocumentMoniker": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\Strategy\\IKeyboard.cs",
+              "RelativeDocumentMoniker": "DesignPattern\\Strategy\\IKeyboard.cs",
+              "ToolTip": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\Strategy\\IKeyboard.cs",
+              "RelativeToolTip": "DesignPattern\\Strategy\\IKeyboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:59:34.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Computer.cs",
+              "DocumentMoniker": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\Strategy\\Computer.cs",
+              "RelativeDocumentMoniker": "DesignPattern\\Strategy\\Computer.cs",
+              "ToolTip": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\Strategy\\Computer.cs",
+              "RelativeToolTip": "DesignPattern\\Strategy\\Computer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T10:59:46.603Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

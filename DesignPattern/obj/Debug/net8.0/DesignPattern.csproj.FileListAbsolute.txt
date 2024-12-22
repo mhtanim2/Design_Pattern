@@ -1,0 +1,14 @@
+G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\bin\Debug\net8.0\DesignPattern.exe
+G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\bin\Debug\net8.0\DesignPattern.deps.json
+G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\bin\Debug\net8.0\DesignPattern.runtimeconfig.json
+G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\bin\Debug\net8.0\DesignPattern.dll
+G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\bin\Debug\net8.0\DesignPattern.pdb
+G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.GeneratedMSBuildEditorConfig.editorconfig
+G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.AssemblyInfoInputs.cache
+G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.AssemblyInfo.cs
+G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.csproj.CoreCompileInputs.cache
+G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.dll
+G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\obj\Debug\net8.0\refint\DesignPattern.dll
+G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.pdb
+G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.genruntimeconfig.cache
+G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\obj\Debug\net8.0\ref\DesignPattern.dll
