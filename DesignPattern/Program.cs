@@ -1,7 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using DesignPattern.DInversion;
+using DesignPattern.Factory;
+using DesignPattern.Singleton;
 
-//MacBook ob=new MacBook(new WairedKeyboard(),new WairlessMouse());
-using DesignPattern.Strategy;
+/*Dependency Invertion 
+ MacBook ob=new MacBook(new WairedKeyboard(),new WairlessMouse());
+ ob.showDetail();
 
-Computer ob = new Computer(new WairedKeyboard());
-ob.showDetail();
+ * Singleton
+  DatabaseConnection db= DatabaseConnection.getInstance();*/
+
+//Factory
+Restaurant factory = new Restaurant("beef");
+factory.SaveBurger();

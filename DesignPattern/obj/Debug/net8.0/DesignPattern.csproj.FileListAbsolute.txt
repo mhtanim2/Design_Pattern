@@ -12,3 +12,4 @@ G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\obj\Debug\net8.0\refint\Desi
 G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.pdb
 G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.genruntimeconfig.cache
 G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\obj\Debug\net8.0\ref\DesignPattern.dll
+G:\ASPDotNet\PalyGround\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.sourcelink.json

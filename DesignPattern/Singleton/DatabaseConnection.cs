@@ -1,4 +1,15 @@
 ﻿namespace DesignPattern.Singleton;
+//Singleton Desing Pattern
+
+// One instace will be created throughout the lifetime
+/*
+
+ Steps:
+i. Private contractor so that nobody can create object
+ii. Class variable
+iii. Class Method for inserting the method one time
+
+ */
 
 public class DatabaseConnection
 {
