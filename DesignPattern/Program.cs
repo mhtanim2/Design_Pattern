@@ -1,4 +1,5 @@
-﻿using DesignPattern.DInversion;
+﻿using DesignPattern;
+using DesignPattern.DInversion;
 using DesignPattern.Factory;
 using DesignPattern.Singleton;
 
@@ -9,6 +10,9 @@ using DesignPattern.Singleton;
  * Singleton
   DatabaseConnection db= DatabaseConnection.getInstance();*/
 
-//Factory
-Restaurant factory = new Restaurant("beef");
+//* Factory
+Restaurant factory = new Restaurant(SD.Veggie);
 factory.SaveBurger();
+
+IBurger ob = BurgerFactory.CreateBurger(SD.Beef);
+ob.Prepare();
