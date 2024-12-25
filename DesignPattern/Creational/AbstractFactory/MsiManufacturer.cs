@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.AbstractFactory;
+﻿namespace DesignPattern.Creational.AbstractFactory;
 
 public class MsiManufacturer : Company
 {

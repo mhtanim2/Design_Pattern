@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Singleton;
+﻿namespace DesignPattern.Creational.Singleton;
 //Singleton Desing Pattern
 
 // One instace will be created throughout the lifetime
@@ -13,7 +13,7 @@ iii. Class Method for inserting the method one time
 
 public class DatabaseConnection
 {
-    private static volatile DatabaseConnection connObj;
+    private static volatile DatabaseConnection? connObj;
     private static readonly object lockObj = new object();
 
     private DatabaseConnection()

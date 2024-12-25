@@ -1,6 +1,8 @@
-﻿namespace DesignPattern.AbstractFactory;
+﻿using DesignPattern.Creational.AbstractFactory;
 
-public class GigabyteManufacturer:Company
+namespace DesignPattern.Creational.AbstractFactory;
+
+public class GigabyteManufacturer : Company
 {
     public override IGpu CreateGpu()
     {

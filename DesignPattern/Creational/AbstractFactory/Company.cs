@@ -1,11 +1,11 @@
-﻿namespace DesignPattern.AbstractFactory;
+﻿namespace DesignPattern.Creational.AbstractFactory;
 
 public abstract class Company
 {
-    public void BuildPc() 
+    public void BuildPc()
     {
-        IGpu gpu=CreateGpu();
-        IMonitor monitor=CreateMonitor();
+        IGpu gpu = CreateGpu();
+        IMonitor monitor = CreateMonitor();
         gpu.Assemble();
         monitor.Assemble();
     }

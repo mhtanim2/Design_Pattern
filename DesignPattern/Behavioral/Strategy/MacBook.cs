@@ -1,9 +1,9 @@
-﻿namespace DesignPattern.Strategy;
+﻿namespace DesignPattern.Behavioral.Strategy;
 
 public class MacBook
 {
     private readonly IKeyboard _keyboard;
-    
+
 
     public MacBook(IKeyboard keyboard)
     {

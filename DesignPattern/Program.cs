@@ -1,8 +1,8 @@
-﻿using DesignPattern.Singleton;
+﻿using DesignPattern.Creational.Singleton;
 using DesignPattern.DInversion;
 using DesignPattern;
-using DesignPattern.Factory;
-using DesignPattern.AbstractFactory;
+using DesignPattern.Creational.Factory;
+using DesignPattern.Creational.AbstractFactory;
 
 
 /*Dependency Invertion 
@@ -16,6 +16,6 @@ using DesignPattern.AbstractFactory;
     new Main_Factory_Client().Main();
  
  * Abstract Factory  
- */
 
-new Main_Abstract_Factory_Client().Main();
+ */
+    new Main_Abstract_Factory_Client().Main();

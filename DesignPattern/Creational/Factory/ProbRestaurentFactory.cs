@@ -1,4 +1,12 @@
-﻿
+﻿/*
+ * If there added new type of burger
+ * it will hamper open close principle
+ * Also Client need the dependecy
+ * Tightly Coupling
+*/
+
+
+
 /*
  * If there added new type of burger
  * it will hamper open close principle
@@ -6,11 +14,11 @@
  * Tightly Coupling
 */
 
-namespace DesignPattern.Factory;
+namespace DesignPattern.Creational.Factory;
 
 public class ProbRestaurentFactory
 {
-    public IBurger CreateBurger(string type) 
+    public IBurger CreateBurger(string type)
     {
         switch (type.ToLower())
         {

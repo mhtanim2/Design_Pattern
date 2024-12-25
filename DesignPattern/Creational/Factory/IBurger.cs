@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Factory;
+﻿namespace DesignPattern.Creational.Factory;
 
 public interface IBurger
 {

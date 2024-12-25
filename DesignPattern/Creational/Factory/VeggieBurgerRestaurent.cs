@@ -1,5 +1,4 @@
-﻿
-namespace DesignPattern.Factory;
+﻿namespace DesignPattern.Creational.Factory;
 
 public class VeggieBurgerRestaurent : Restaurent
 {
