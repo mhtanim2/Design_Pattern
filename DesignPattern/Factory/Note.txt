@@ -1,49 +1,58 @@
-i. Multiple object from single class
-ii. Create object using condition
-iii. Same type object but different condition
-
-
-+----------------------+
-|      IBurger         |
-+----------------------+  
-| + Prepare() : void   |
-+----------------------+
-          ^
-          |
-          |
-
-
-+----------------------+
-| VeggieBurger:IBurger |
-+----------------------+
-| + Prepare() : void   |
-+----------------------+
-          
-+----------------------+
-|  BeefBurger:IBurger  |
-+----------------------+
-| + Prepare() : void   |
-+----------------------+
+Problem:
+i. Tightly coupling and destroying Open close principle
+ii. Multiple object from single class
+iii. Define the type and condition of object
+iv. Same type object but different condition
 
 
 
-+----------------+         +----------------------+         +------------------+
-|    IBurger     |<--------|    BurgerFactory     |-------->|   VeggieBurger   |
-|----------------|         |----------------------|         |------------------|
-| + Prepare()    |         | + CreateBurger(type) |         | + Prepare()      |
-+----------------+         +----------------------+         +------------------+
-                                                             |   BeefBurger    |
-                                                             |------------------|
-                                                             | + Prepare()      |
-                                                             +------------------+
+Fix:
++-----------------------------------+  
+|            IBurger                |  
+|-----------------------------------|  
+| + Prepare()                       |  
++-----------------------------------+  
+              ^  
+              |  
+              |         
++-------------+-------------+  
+|                           |  
+|                           |  
+|                           |  
+|                           |  
+|                           |  
+|                           |  
++----------------+          +----------------+  
+| VeggieBurger   |          | BeefBurger     |  
+|----------------|          |----------------|  
+| + Prepare()    |          | + Prepare()    |  
++----------------+          +----------------+  
+                               
++-----------------------------------+  
+|            Restaurent             |  
+|-----------------------------------|  
+| + OrderBurger() : IBurger         |  
+| + CreateBurger() : IBurger        | (abstract)  
++-----------------------------------+  
+              ^  
+              |  
+              |  
++-------------+-------------+    
+|                           |    
+|                           |    
+|                           |    
+|                           |    
++----------------+         +------------------+  
+| VeggieBurgerRestaurent     | BeefBurgerRestaurent |  
+|----------------------------|----------------------|  
+| + CreateBurger() : IBurger | + CreateBurger() : IBurger |  
++----------------------------+-----------------------+  
 
-+----------------+
-|   Restaurant   |
-|----------------|
-| - _burger: IBurger      |
-|----------------|
-| + ServeMeal()  |
-+----------------+
-
++---------------------------------+  
+|          Main_Factory_Client    |  
+|---------------------------------|  
+| + Main()                        |  
+| + ClientCodeWithFactory()       |  
++---------------------------------+
 
 

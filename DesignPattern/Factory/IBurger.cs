@@ -5,10 +5,6 @@ public interface IBurger
     void Prepare();
 }
 
-/*
- Can have multiple type of burger
- */
-
 public class VeggieBurger : IBurger
 {
     public void Prepare()
