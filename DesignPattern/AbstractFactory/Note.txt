@@ -1,0 +1,71 @@
+﻿Problem:
+i. Tightly coupling and Multi Interface destroying Open close principle
+ii. Define the type and condition of object
+iii. Same type object but different condition
+iv. Multiple dependency
+
+
+Fix:
++-----------------------------+  
+|          IGpu               |  
+|-----------------------------|  
+| + Assemble()                |  
++-----------------------------+  
+              ^  
+              | isA 
+              |  
++-------------+--------------+  
+|                             |  
+|                             |  
+|                             |  
++----------------+           +-----------------+  
+| MsiGpu        |           | GigabyteGpu     |  
+|----------------|          |-----------------|  
+| + Assemble()   |          | + Assemble()    |  
++----------------+          +-----------------+  
+
++-----------------------------+  
+|        IMonitor             |  
+|-----------------------------|  
+| + Assemble()                |  
++-----------------------------+  
+              ^  
+              | isA 
+              |  
++-------------+-------------+  
+|                           |  
+|                           |  
+|                           |  
++----------------+          +-----------------+  
+| MsiMonitor     |          | GigabyteMonitor  |  
+|----------------|          |-----------------|  
+| + Assemble()    |         | + Assemble()    |  
++----------------+          +-----------------+  
+
++---------------------------------+  
+|            Company              |  
+|---------------------------------|  
+| + BuildPc()                    |  
+| + CreateGpu() : IGpu          | (abstract)  hasA
+| + CreateMonitor() : IMonitor   | (abstract) hasA 
++---------------------------------+  
+              ^  
+              |  
+              |  isA
++-------------+---------------+  
+|                             |  
+|                             |  
++----------------+           +-------------------+  
+| MsiManufacturer |          | GigabyteManufacturer |  
+|----------------|           |---------------------|  
+| + CreateGpu()  |           | + CreateGpu()      |  
+| + CreateMonitor()|         | + CreateMonitor()  |  
++-----------------+          +-------------------+
+
++---------------------------------+  
+|   Main_Abstract_Factory_Client  |  
+|---------------------------------|  
+|+ Main()                        |  
+|+ ClientCodeWithAbstractFactory()|  
++---------------------------------+
+

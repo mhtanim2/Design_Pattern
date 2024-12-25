@@ -5,18 +5,18 @@ public class Main_Factory_Client
 {
     public void Main()
     {
-/*     //* Breaking Factory Pattern Rules
-        
-        ProbRestaurentFactory problem = new ProbRestaurentFactory();
-        IBurger ob = ClientCode(problem);
-        ob.Prepare();
-*/
         //* Using Factory
         
         Restaurent beefObj = new BeefBurgerRestaurent();
         ClientCodeWithFactory(beefObj); 
         Restaurent veggie = new VeggieBurgerRestaurent();
         ClientCodeWithFactory(veggie); 
+/*     //* Breaking Factory Pattern Rules
+        
+        ProbRestaurentFactory problem = new ProbRestaurentFactory();
+        IBurger ob = ClientCode(problem);
+        ob.Prepare();
+*/
     }
 
     // The client code works with an instance of a concrete creator, albeit
