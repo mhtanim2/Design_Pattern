@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\DesignPattern.csproj": {}
+    "D:\\Intuisys\\Design_Pattern\\DesignPattern\\DesignPattern.csproj": {}
   },
   "projects": {
-    "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\DesignPattern.csproj": {
+    "D:\\Intuisys\\Design_Pattern\\DesignPattern\\DesignPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
+        "projectUniqueName": "D:\\Intuisys\\Design_Pattern\\DesignPattern\\DesignPattern.csproj",
         "projectName": "DesignPattern",
-        "projectPath": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
-        "packagesPath": "C:\\Users\\mhtan\\.nuget\\packages\\",
-        "outputPath": "G:\\ASPDotNet\\PalyGround\\DesignPattern\\DesignPattern\\obj\\",
+        "projectPath": "D:\\Intuisys\\Design_Pattern\\DesignPattern\\DesignPattern.csproj",
+        "packagesPath": "C:\\Users\\Ingen20\\.nuget\\packages\\",
+        "outputPath": "D:\\Intuisys\\Design_Pattern\\DesignPattern\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mhtan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ingen20\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -1,14 +1,21 @@
 ﻿
+/*
+ * If there added new type of burger
+ * it will hamper open close principle
+ * Also Client need the dependecy
+ * Tightly Coupling
+*/
+
 namespace DesignPattern.Factory;
 
-public static class BurgerFactory
+public class ProbRestaurentFactory
 {
-    public static IBurger CreateBurger(string type) 
+    public IBurger CreateBurger(string type) 
     {
         switch (type.ToLower())
         {
             case "veggie":
-                return new VeggeBurger();
+                return new VeggieBurger();
             case "beef":
                 return new BeefBurger();
             default:

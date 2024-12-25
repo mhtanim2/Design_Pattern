@@ -9,7 +9,7 @@ public interface IBurger
  Can have multiple type of burger
  */
 
-public class VeggeBurger : IBurger
+public class VeggieBurger : IBurger
 {
     public void Prepare()
     {

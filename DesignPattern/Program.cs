@@ -1,18 +1,18 @@
-﻿using DesignPattern;
+﻿using DesignPattern.Singleton;
 using DesignPattern.DInversion;
+using DesignPattern;
 using DesignPattern.Factory;
-using DesignPattern.Singleton;
+
 
 /*Dependency Invertion 
  MacBook ob=new MacBook(new WairedKeyboard(),new WairlessMouse());
  ob.showDetail();
 
  * Singleton
-  DatabaseConnection db= DatabaseConnection.getInstance();*/
+  DatabaseConnection db= DatabaseConnection.getInstance();
 
-//* Factory
-Restaurant factory = new Restaurant(SD.Veggie);
-factory.SaveBurger();
+ * Factory 
+ */
 
-IBurger ob = BurgerFactory.CreateBurger(SD.Beef);
-ob.Prepare();
+
+new Main_Factory_Client().Main();
