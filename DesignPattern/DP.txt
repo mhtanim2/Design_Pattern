@@ -7,7 +7,7 @@ Singleton: ASP.NET Core's AddSingleton DI scope is a direct implementation of th
 2. Structural Patterns (for structuring relationships between objects):
 Adapter: Helps integrate with external systems or legacy code.
 Decorator: Enhances functionality of objects without altering their structure, useful for middleware or extending services.
-Facade: Simplifies complex systems by providing a unified interface, e.g., a service layer acting as a facade over repositories.
+Facade: Simplifies complex systems by providing a unified interface, e.g., a service layer acting as a façade over repositories.
 3. Behavioral Patterns (for defining communication between objects):
 Strategy: Allows dynamic swapping of algorithms, often paired with DI to inject the required strategy at runtime.
 Command: Encapsulates a request as an object, useful in scenarios like undo/redo functionality or task queuing.
