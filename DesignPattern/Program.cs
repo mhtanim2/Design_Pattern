@@ -3,6 +3,7 @@ using DesignPattern.DInversion;
 using DesignPattern;
 using DesignPattern.Creational.Factory;
 using DesignPattern.Creational.AbstractFactory;
+using DesignPattern.Structural.Adapter;
 
 
 /*Dependency Invertion 
@@ -16,6 +17,9 @@ using DesignPattern.Creational.AbstractFactory;
     new Main_Factory_Client().Main();
  
  * Abstract Factory  
+    new Main_Abstract_Factory_Client().Main();
 
  */
-    new Main_Abstract_Factory_Client().Main();
+
+// Adapter
+new Main_Adapter_Client().Main();
