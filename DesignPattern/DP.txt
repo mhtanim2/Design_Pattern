@@ -1,0 +1,14 @@
+Patterns You Should Focus On with DI in Mind:
+While DI reduces the need to implement certain patterns explicitly (like the Service Locator), there are still many patterns worth focusing on:
+
+1. Creational Patterns (for object creation):
+Factory Method: Useful for creating instances of classes based on specific conditions. DI makes some of its uses redundant but not all.
+Singleton: ASP.NET Core's AddSingleton DI scope is a direct implementation of the Singleton pattern.
+2. Structural Patterns (for structuring relationships between objects):
+Adapter: Helps integrate with external systems or legacy code.
+Decorator: Enhances functionality of objects without altering their structure, useful for middleware or extending services.
+Facade: Simplifies complex systems by providing a unified interface, e.g., a service layer acting as a façade over repositories.
+3. Behavioral Patterns (for defining communication between objects):
+Strategy: Allows dynamic swapping of algorithms, often paired with DI to inject the required strategy at runtime.
+Command: Encapsulates a request as an object, useful in scenarios like undo/redo functionality or task queuing.
+Observer: Enables event-driven programming, relevant for signaling changes in state to multiple components.

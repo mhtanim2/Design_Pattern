@@ -1,15 +1,11 @@
-﻿namespace DesignPattern.Factory;
+﻿namespace DesignPattern.Creational.Factory;
 
 public interface IBurger
 {
     void Prepare();
 }
 
-/*
- Can have multiple type of burger
- */
-
-public class VeggeBurger : IBurger
+public class VeggieBurger : IBurger
 {
     public void Prepare()
     {

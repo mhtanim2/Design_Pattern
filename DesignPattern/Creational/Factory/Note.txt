@@ -1,0 +1,85 @@
+Factory Method Pattern
+Purpose: The Factory Method is primarily a creational pattern. Its goal is to delegate the instantiation of objects to subclasses or methods, encapsulating the logic of object creation.
+
+Key Idea: Define an interface or abstract class for creating an object, but let the subclasses or specific methods decide which class to instantiate.
+
+Use Case:
+
+When the client code doesn’t need to know the exact class of the object being created.
+When you have a family of related classes and want to delegate their instantiation.
+
+Problem:
+i. Tightly coupling and destroying Open close principle
+ii. Multiple object from single class
+iii. Define the type and condition of object
+iv. Same type object but different condition
+
+
+
+Fix:
++-----------------------------------+  
+|            IBurger                |  
+|-----------------------------------|  
+| + Prepare()                       |  
++-----------------------------------+  
+              ^  
+              |  
+              |IsA         
++-------------+-------------+  
+|                           |  
+|                           |  
+|                           |  
+|                           |  
+|                           |  
+|                           |  
++----------------+          +----------------+  
+| VeggieBurger   |          | BeefBurger     |  
+|----------------|          |----------------|  
+| + Prepare()    |          | + Prepare()    |  
++----------------+          +----------------+  
+                               
++-----------------------------------+  
+|            Restaurent             |  
+|-----------------------------------|  
+| + OrderBurger() : IBurger         | HasA 
+| + CreateBurger() : IBurger        | (abstract)  
++-----------------------------------+  
+              ^  
+              |  
+              |IsA  
++-------------+-------------+    
+|                           |    
+|                           |    
+|                           |    
+|                           |    
++----------------+         +------------------+  
+| VeggieBurgerRestaurent     | BeefBurgerRestaurent |  
+|----------------------------|----------------------|  
+| + CreateBurger() : IBurger | + CreateBurger() : IBurger |  
++----------------------------+-----------------------+  
+
++---------------------------------+  
+|          Main_Factory_Client    |  
+|---------------------------------|  
+| + Main()                        |  
+| + ClientCodeWithFactory()       |  
++---------------------------------+
+
+
+Look: 
+Aspect	Factory Method	Strategy
+Pattern Type	Creational	Behavioral
+Primary Goal	Encapsulate object creation logic.	Encapsulate interchangeable behaviors.
+Focus	What type of object to create.	What algorithm or behavior to use.
+Runtime Behavior	Usually fixed after object creation.	Can change dynamically at runtime.
+Client Role	Doesn't control which object is created.	Controls which strategy is used.
+Example Scenario	A factory for creating different shapes.	Different sorting algorithms.
+
+
+Factory Method ensures the right object is created for the job.
+Strategy ensures the right behavior is executed for the task.
+If an object’s behavior depends on the type of object created, you might use Factory Method to create the object and Strategy to define its behavior. For example:
+
+A payment gateway factory creates PayPalPayment or StripePayment objects (Factory Method).
+Each payment object uses a different encryption algorithm (Strategy).
+
