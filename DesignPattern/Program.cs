@@ -4,6 +4,8 @@ using DesignPattern;
 using DesignPattern.Creational.Factory;
 using DesignPattern.Creational.AbstractFactory;
 using DesignPattern.Structural.Adapter;
+using DesignPattern.Structural.Decorator;
+using DesignPattern.Structural.Decorator.Problem;
 
 
 /*Dependency Invertion 
@@ -22,4 +24,7 @@ using DesignPattern.Structural.Adapter;
  */
 
 // Adapter
-new Main_Adapter_Client().Main();
+//new Main_Adapter_Client().Main();
+Main_Decorator_Clinet.Main();
+
+//Main_Decorator_Clinet_Problem.Main();

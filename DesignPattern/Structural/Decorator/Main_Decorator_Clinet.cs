@@ -55,13 +55,13 @@ public class SlackNotifier : NotifierDecorator
 }
 
 // Client code1
-public class Main_Decorator_Clinet
+public static class Main_Decorator_Clinet
 {
-    public void Main()
+    public static void Main()
     {
         INotifier notifier = new Notifier();
-        INotifier facebookNotifier = new FacebookNotifier(notifier);
-        INotifier slackNotifier = new SlackNotifier(facebookNotifier);
+  //      INotifier facebookNotifier = new FacebookNotifier(notifier);
+        INotifier slackNotifier = new SlackNotifier(notifier);
 
         slackNotifier.Send("Hello, Decorator Pattern!");
     }

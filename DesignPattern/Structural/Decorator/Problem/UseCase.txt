@@ -1,0 +1,2 @@
+i. When it is not extendable
+ii. When I have to add extra behaviors to object at runtime.
